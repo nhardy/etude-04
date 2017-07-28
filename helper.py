@@ -74,7 +74,7 @@ class Desert:
             amount_to_remove -= remove
             can.remove(remove)
 
-    def put_can(self, position, can):
+    def put_can(self, position: float, can):
         if position not in self._cans:
             self._cans[position] = []
         self._cans[position].append(can)
@@ -84,7 +84,7 @@ class Desert:
         assert amount <= sum([can.fuel for can in self._cans[position]])
 
         cans = []
-
+        pass
 
 def q1():
     d = Desert()
