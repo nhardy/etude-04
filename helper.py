@@ -10,13 +10,14 @@ import sys
 _TOTAL_DISTANCE = 2413
 
 class Can:
-    _CAPACITY = 20
+    CAPACITY = 20
 
     def __init__(self):
         self._fuel = 0
 
-    def fill(self, fuel: float):
-        self._fuel = min(self._CAPACITY, self._fuel + fuel)
+    def fill(self, amount: float):
+        self._fuel = min(self.CAPACITY, self._fuel + amount)
+        return self
 
     def remove(self, amount: float) -> float:
         if amount <= self._fuel:
@@ -33,6 +34,7 @@ class Can:
 
 class Vehicle:
     _CAPACITY = 60
+    MAX_CANS = 4
     _KM_PER_LITRE = 12
 
     def __init__(self):
@@ -56,6 +58,24 @@ class Vehicle:
     @property
     def position(self):
         return self._position
+
+    def pickup_cans(self, cans: list) -> list:
+        amount = sum([can.fuel for can in cans])
+        assert sum([can.fuel for can in self._cans]) + amount <= Can.CAPACITY * self.MAX_CANS
+        previous = len(self._cans)
+        new = len(cans)
+        n_cans, excess = divmod(amount, Can.CAPACITY)
+        self._cans = [Can().fill(Can.CAPACITY) for _ in range(n_cans)]
+        if excess > 0:
+            self._cans.append([Can().fill(excess))
+        return [Can() for _ in range(previous + new - self.MAX_CANS)]
+
+    def remove_cans(self, amount: float) -> list:
+        assert amount <= sum([can.fuel for can in self._cans])
+        previous = len(self._cans)
+        n_cans, excess = divmod(amount, Can.CAPACITY)
+
+
 
 class Desert:
     def __init__(self):
@@ -99,7 +119,9 @@ def q2():
     d = Desert()
     v = Vehicle()
     v.fill(d.pickup_fuel(v.position, 60))
-    v.move(_TOTAL_DISTANCE)
+    v.pickup_cans([Can().fill(Can.CAPACITY) for _ in range(Vehicle.MAX_CANS)])
+    v.move(360)
+
     assert v.position == _TOTAL_DISTANCE
     print('Q2 passed')
 
