@@ -1,0 +1,18 @@
+Jake Redmond 9808422
+Nathan Hardy 1926855
+Duncan Cowan 1724979
+
+Etude 4 Report
+
+1. The furthest you can go into the desert without refuelling is 360km; 60*12 = 720, but in order to come back safely this becomes 720/2 = 360.
+
+2. In order to cross the desert, fuel must be dumped to make up the difference between maximum mileage and the end of the desert ((60+80)*12 = 1680, 2413 - 1680 = 733 km). 80 liters of gas is taken to and dropped off at 373 km, then just enough is used to safely return the vehicle to base. The buggy is refueled and taken out to 373 km again, where 31.083 liters are added to the tank. The buggy continues forward another 360 km to 733 km, drops off another 80 liters of gas, and makes its way back to base by using the fuel at 373 km. The buggy leaves one last time, picks up the remaining fuel at 373 km, continues to and refuels at 733 km, drives 720 km to and refuels at 1453 km and 2173 km, before a final refuel at 2173 km allows it to drive to 2413 km.
+
+3. To cross and return, greater amounts of fuel must be taken out further in order to support the buggy's return from the end of the desert.
+	1. Fuel is taken out first to 370 km, where the buggy uses 20 of the 80 liters dropped to refuel and return to base. This is done 16 times.
+	2. Afer refueling, the buggy departs to 370 km, uses 30 liters of the fuel there to refill, and continues on another 360 km. 80 liters of fuel are left here (of which 20 are used to refuel), and the buggy goes back to 370 km where it uses another 30 liters to refuel and return to base. This is done 8 times.
+	3. The buggy follows the same pattern as step 2, but instead of turning back at 730 km (370 + 360) it continues on another 360 km to 1090 km. Here it deposits 80 liters of gas, uses 20 to refill, and then returns to base with stops to refuel 30 liters each at 730 km and 370 km. This is done 4 times.
+	4. The vehicle goes out to 1090 km following the procedure in step 4, but instead of turning back the buggy continues out 360 km to 1450 km, drops 80 liters of gas and uses 20 to refill, then returns to bases with stops at 1090 km, 730 km, and 370 km to refill 30 liters at each. This is done twice.
+	5. This pattern of continuing out an additional 360 km from the previous point and placing more gas at every previous point along the way is continued until there is gas at kilometers 370, 730, 1090, 1450, and 1810. Once all fuel prior to 1810 km has been replenished, the buggy goes out to 1810 km and has enough fuel to go out 603 km, reaching the end of the desert. Enough fuel is left at each of the previous points that, after returning the 603 km to 1810 km, the buggy can drive back and refuel every 360 km until it reaches the 370 km gas cache. Here, it refuels and drives back the final 370 km, completeing the desert crossing and return.
+
+4.
