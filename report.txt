@@ -18,9 +18,9 @@ Etude 4 Report
 4. In order to cross the desert, fuel must be dumped to make up the difference between maximum mileage and the end of the desert ((60+80)*12 = 1680, 2413 - 1680 = 733 km). 60 litres of fuel is taken to and dropped off at 240 km, then just enough is used to safely return the vehicle to base. The buggy is refueled and taken out to 240 km again, where 20 litres are added to the tank. The buggy continues forward another 240 km to 480 km, drops off 20 litres and continues another 240 km to 720 km, drops off 40 litres, continues a further 13 km and drops off 3.25 litres, picks up 2.1666 litres, and makes its way back to base by using 20 litres of fuel at 240 km. The buggy leaves one last time, picks up the remaining fuel at 240 km, continues to and refuels at 480 km, 720 km and 733 km. It then drives 720 km to and refuels at 1453 km and 2173 km, before a final refuel at 2173 km allows it to drive to 2413 km.
 
 5. To cross and return with a more optimal amount of fuel (2566.5L), we used the following steps
-	1. 420L of fuel is first dropped at 240km from the base in 5 trips.
-	2. 60L of fuel is dropped 240km from the base.
-	3. Stopping at 240km, picking up 20L, and continuing to 480km to drop 80L of fuel occurs 3 times.
+	1. 320L of fuel is first dropped at 240km from the base in 4 trips.
+	2. 20L of fuel is dropped and refueled with at 240km and a further 20L dropped at 480km from the base. The buggy then returns to the base.
+	3. Stopping at 240km, picking up 20L, and continuing to 480km to drop 80L of fuel occurs twice.
 	4. The buggy stops at 240km, picking up 20L, and continues to 480km to drop 66.5L of fuel.
 	3. Stopping at 240km followed by 480km, picking up 20L at each stop, then continuing to 720km to drop 80L, returning to 240km and picking up 20L before returning to base occurs 3 times.
 	4. A pattern of picking up 20L every 240km continues until 960km, where 80L is dropped before the buggy returns to 480km, tops up 20L and continues this every 240km until reaching the base repeats twice.
