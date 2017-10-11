@@ -1,6 +1,5 @@
-4. Describe a procedure whereby you could cross the desert in the vehicle using the
-minimum amount of fuel.
+4. Describe a procedure whereby you could cross the desert in the vehicle using the minimum amount of fuel.
 T40 C60 F240 D60 B240
-T60 C63.25 F240 T20 F480 D40 T20 F13 D3.25 T2.1666 B13 B240 D20 B240 T20 B240
+T60 C63.25 F240 T20 F240 D20 F240 D40 T20 F13 D3.25 T2.1666 B493 T20 B240
 T60 C80 F240 T20 F240 T20 F240 T20 F13 T1.0833 F720 D60 T60 F720 D20 T20 F240
 #363.25
