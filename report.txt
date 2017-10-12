@@ -4,7 +4,7 @@ Duncan Cowan 1724979
 
 Etude 4 Report
 
-1. The furthest you can go into the desert without refuelling is 360km; 60*12 = 720, but in order to come back safely this becomes 720/2 = 360.
+1. The furthest you can go into the desert without refuelling is 720km; 60*12 = 720, but in order to return safely this becomes 720/2 = 360.
 
 2. To travel across the desert, we worked with increments of the safe distance of 360km, building up a supply, before moving to the next 360km increment.
 
@@ -17,13 +17,14 @@ Etude 4 Report
 
 4. In order to cross the desert, fuel must be dumped to make up the difference between maximum mileage and the end of the desert ((60+80)*12 = 1680, 2413 - 1680 = 733 km). 60 litres of fuel is taken to and dropped off at 240 km, then just enough is used to safely return the vehicle to base. The buggy is refueled and taken out to 240 km again, where 20 litres are added to the tank. The buggy continues forward another 240 km to 480 km, drops off 20 litres and continues another 240 km to 720 km, drops off 40 litres, continues a further 13 km and drops off 3.25 litres, picks up 2.1666 litres, and makes its way back to base by using 20 litres of fuel at 240 km. The buggy leaves one last time, picks up the remaining fuel at 240 km, continues to and refuels at 480 km, 720 km and 733 km. It then drives 720 km to and refuels at 1453 km and 2173 km, before a final refuel at 2173 km allows it to drive to 2413 km.
 
-5. To cross and return with a more optimal amount of fuel (2566.5L), we used the following steps
+5. To cross and return with a more optimal amount of fuel, we used the following steps
 	1. 320L of fuel is first dropped at 240km from the base in 4 trips.
 	2. 20L of fuel is dropped and refueled with at 240km and a further 20L dropped at 480km from the base. The buggy then returns to the base.
-	3. Stopping at 240km, picking up 20L, and continuing to 480km to drop 80L of fuel occurs twice.
-	4. The buggy stops at 240km, picking up 20L, and continues to 480km to drop 66.5L of fuel.
-	3. Stopping at 240km followed by 480km, picking up 20L at each stop, then continuing to 720km to drop 80L, returning to 240km and picking up 20L before returning to base occurs 3 times.
-	4. A pattern of picking up 20L every 240km continues until 960km, where 80L is dropped before the buggy returns to 480km, tops up 20L and continues this every 240km until reaching the base repeats twice.
-	5. A pattern of picking up 20L every 240km continues until 1200km, where 80L is dropped before the buggy returns to 720km, tops up 20L and continues this every 240km until reaching the base repeats twice.
-	6. A pattern of picking up 20L every 240km continues until 1200km, where 20L is picked up and the buggy travels to 1573km, drops 80L, fills up with 2.1666L before returning to 1200km, filling up with 40L, returning to 720km and then picking up 20L and travelling in 240km increments toward the base repeats twice.
-	7. For the final trip, the buggy travels to 240km, picks up 20L, travels to 480km, drops 20L and fills up 20L, travels to 960km, drops 20L and fills up 20L, travels to 1200km, fills up with 20L, travels to 1573km and fills up with 31.0833L and picks up 40L, travels to 2293km dropping 60L and filling up with 60L, travels to 2413km (the end), travels backward to 1693km, dropping 10L and picking up 10L, travelling to 1573km, filling up with 60L and picking up 24.5833, travelling to 1200km, filling 20L, travelling to 960km, filling 20L and picking up 40L, travelling to 720km, filling with 24.5833L and picking up 14.4166L, travelling to 480km, picking up 20L, travelling to 240km, picking up 20L and finally reaching the base and dumping 80L.
+	3. Stopping at 240km, refueling 20L, and continuing to 480km to drop 80L of fuel occurs twice.
+	4. The buggy drives to 240km, refueling 20L. The buggy continues to 480km to drop 60L and refuel 20L. It continues to 720km and drops 20L before returning to 240km to refuel 20L and then returns to base.
+	5. The buggy drives 240km forward and refuels 20L, drives a further 240km and refuels 20L, drives a further 240km and drops 80L, before driving 480km toward the base, refueling 20L and driving the final 240km back to base.
+	6. The buggy drives in 240km increments, refueling with 20L each time until it reaches 720km from base where it drops 60L and refuels with 20L. The buggy then continues a further 240km to 960km where it drops 20L. The buggy then travels toward the base by 480km, before continuing in 240km/20L increments to base.
+	7. The buggy drives forward in 240km/20L refueling increments until 960km where it drops 80L. The buggy then travels toward the base by 480km before continuing in 240km/20L refueling increments to base.
+	8. The buggy drives forward in 240km/20L refueling increments until 1200km where it drops 80L. The buggy then travels toward the base by 480km before continuing in 240km/20L refueling increments to base.
+	9. The buggy drives forward in 240km/20L refueling increments to 1440km where it drops 40L. It then continues to 1573km where it drops 24.3333L and refuels with 2.1666L. It then travels toward the base by 373km to 1200km. It then travels back to base in 20L/240km increments.
+	10. The buggy drives forward in 240km/20L refueling increments to 1440km. It then continues to 1573km where it refuels with 11.0833L. It then travels forward 720km to 2293km, drops 60L and refuels with 60L, continues forward 120km to 2413km the end of the desert. It returns toward the base by 120km, drops 20L and refuels 20L, returns by 720km to reach 1573km where it refuels with the remaining 11.0833L of fuel. It then travels toward the base by 133km, followed by 20L/240km increments to finish at the base having used a total of 1824.3333L of fuel.
